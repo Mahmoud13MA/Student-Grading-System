@@ -19,20 +19,18 @@ This project follows a **modular structure** and is easily extendable to include
 StudentGradingSystem/
 │
 ├── Main/
-|
-│ ├── main.cpp
+│   └── main.cpp
 │
 ├── Include/
-|
-│ ├── Utility.h
-│ ├── Student.h
+│   ├── Utility.h
+│   └── Student.h
 │
 ├── Source/
-|
-│ ├── Utility.cpp
-│ ├── Student.cpp
+│   ├── Utility.cpp
+│   └── Student.cpp
 │
 └── README.md
+
 ---
 
 ## ⚙️ How to Run
