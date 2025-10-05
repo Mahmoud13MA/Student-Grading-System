@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Student Grading System",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "Main/main.cpp",
+                "src/*.cpp",
+                "-Iinclude",
+                "-o",
+                "StudentGradingSystem.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
