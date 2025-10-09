@@ -6,6 +6,7 @@ This project follows a **modular structure** and is easily extendable to include
 ---
 
 ## 🚀 Features
+
 - Add, edit, and delete student records  
 - Calculate total, average, and letter grades automatically  
 - Display detailed student grade reports  
@@ -16,6 +17,7 @@ This project follows a **modular structure** and is easily extendable to include
 
 ## 🧩 Project Structure
 
+```
 StudentGradingSystem/
 │
 ├── Main/
@@ -30,43 +32,57 @@ StudentGradingSystem/
 │   └── Student.cpp
 │
 └── README.md
+```
 
 ---
 
 ## ⚙️ How to Run
 
 ### 1️⃣ Compile the project:
+
 ```bash
 g++ Main/main.cpp Source/*.cpp -I Include -o gradingSystem
+```
 
+### 2️⃣ Run the executable:
+
+```bash
 ./gradingSystem
+```
 
----
-
-## 🧠 Step 6 — Add Technologies + Author
-```markdown
 ---
 
 ## 🧠 Technologies Used
-- **C++ (OOP principles)**
+
+- **C++** (Object-Oriented Programming principles)
 - **Modular Design**
 - **File Handling**
-- *(Optional)* GUI with Java Swing or Qt (future integration)
+- *(Future)* GUI with Qt or similar framework
+
+---
+
+## 🏗️ Future Enhancements
+
+- Add graphical user interface (GUI)  
+- Implement data persistence with files or databases  
+- Add grade statistics and visualization charts  
+- Export reports to PDF/CSV formats
+- Multi-user authentication system
 
 ---
 
 ## 👨‍💻 Author
+
 **Mahmoud Abdelrauf**  
-📧 [mahmoudabdelrauf84@gmail.com]  
+📧 mahmoudabdelrauf84@gmail.com  
 💻 [GitHub Profile](https://github.com/Mahmoud13MA)
+
 ---
 
-## 🏗️ Future Enhancements
-- Add graphical interface (GUI)  
-- Implement data persistence with files or databases  
-- Add grade statistics and charts  
+## 📝 License
+
+This project is open source and available for educational purposes.
 
 ---
 
 ⭐ *If you like this project, feel free to star the repo on GitHub!*
-
